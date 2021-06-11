@@ -20,7 +20,7 @@ class Hero {
         translate(pos.x, pos.y);
         rotate(angle);
         ellipseMode(RADIUS);
-        ellipse(0, 0, this.radius, this.radius);
+        image(this.image, pos.x, pos.y, this.width, this.height);
         pop();
     }
 

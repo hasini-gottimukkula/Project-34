@@ -9,7 +9,7 @@ class Fly {
 
         this.fly = Constraint.create(options);
         this.pointB = pointB;
-        World.add(world, this.rope);
+        World.add(world, this.fly);
     }
     attach(body) {
         this.fly.bodyA = body;

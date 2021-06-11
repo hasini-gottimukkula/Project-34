@@ -11,7 +11,7 @@ function preload() {
   //upload your images here
   hero = loadImage("Superhero-01.png");
   monster = loadImage("Monster-02.png");
-  background = loadImage("GamingBackground.png");
+  backgroundImg = loadImage("GamingBackground.png");
 }
 function setup() {
   createCanvas(3000, 800);
@@ -49,7 +49,7 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(backgroundImg);
   Engine.update(engine);
   ground.display();
 
